@@ -1,0 +1,16 @@
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\bin\Debug\net5.0\TwoThreadsConsoleApp.exe
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\bin\Debug\net5.0\TwoThreadsConsoleApp.deps.json
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\bin\Debug\net5.0\TwoThreadsConsoleApp.runtimeconfig.json
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\bin\Debug\net5.0\TwoThreadsConsoleApp.runtimeconfig.dev.json
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\bin\Debug\net5.0\TwoThreadsConsoleApp.dll
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\bin\Debug\net5.0\ref\TwoThreadsConsoleApp.dll
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\bin\Debug\net5.0\TwoThreadsConsoleApp.pdb
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\obj\Debug\net5.0\TwoThreadsConsoleApp.csproj.AssemblyReference.cache
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\obj\Debug\net5.0\TwoThreadsConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\obj\Debug\net5.0\TwoThreadsConsoleApp.AssemblyInfoInputs.cache
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\obj\Debug\net5.0\TwoThreadsConsoleApp.AssemblyInfo.cs
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\obj\Debug\net5.0\TwoThreadsConsoleApp.csproj.CoreCompileInputs.cache
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\obj\Debug\net5.0\TwoThreadsConsoleApp.dll
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\obj\Debug\net5.0\ref\TwoThreadsConsoleApp.dll
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\obj\Debug\net5.0\TwoThreadsConsoleApp.pdb
+D:\Visual Studio WorkSpace\TwoThreadsConsoleApp\TwoThreadsConsoleApp\obj\Debug\net5.0\TwoThreadsConsoleApp.genruntimeconfig.cache
