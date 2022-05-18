@@ -1,8 +1,0 @@
-D:\Visual Studio WorkSpace\ABC.Coporation\ABC.Coporation\bin\Release\ABC.Coporation.dll
-D:\Visual Studio WorkSpace\ABC.Coporation\ABC.Coporation\bin\Release\ABC.Coporation.pdb
-D:\Visual Studio WorkSpace\ABC.Coporation\ABC.Coporation\bin\Release\Newtonsoft.Json.dll
-D:\Visual Studio WorkSpace\ABC.Coporation\ABC.Coporation\bin\Release\Newtonsoft.Json.xml
-D:\Visual Studio WorkSpace\ABC.Coporation\ABC.Coporation\obj\Release\ABC.Coporation.csproj.CoreCompileInputs.cache
-D:\Visual Studio WorkSpace\ABC.Coporation\ABC.Coporation\obj\Release\ABC.Coporation.csproj.CopyComplete
-D:\Visual Studio WorkSpace\ABC.Coporation\ABC.Coporation\obj\Release\ABC.Coporation.dll
-D:\Visual Studio WorkSpace\ABC.Coporation\ABC.Coporation\obj\Release\ABC.Coporation.pdb
