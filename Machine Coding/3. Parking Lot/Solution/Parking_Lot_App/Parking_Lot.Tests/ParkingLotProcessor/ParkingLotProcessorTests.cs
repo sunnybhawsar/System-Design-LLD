@@ -1,6 +1,7 @@
 ﻿using Xunit;
 using Parking_Lot.App.src;
 using Parking_Lot.App.src.Enums;
+using System;
 
 namespace Parking_Lot.Tests.ParkingLotProcessor
 {
@@ -15,7 +16,7 @@ namespace Parking_Lot.Tests.ParkingLotProcessor
             Processor processor = new Processor(inputMode);
 
             // Act
-            processor.StartProcessing();
+            Action act = () => processor.StartProcessing();
         }
     }
 }

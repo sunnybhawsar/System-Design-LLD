@@ -1,5 +1,6 @@
 ﻿using Parking_Lot.App.src.Models;
 using Parking_Lot.App.src.Printers;
+using Parking_Lot.App.src.Services;
 using Parking_Lot.App.src.Utilities;
 using System;
 using System.IO;
@@ -12,7 +13,7 @@ namespace Parking_Lot.App.src.Modes
         private readonly string _directory;
         private readonly string _fileName;        
 
-        public FileMode(Printer printer) : base(printer)
+        public FileMode(Printer printer, IParkingLotService parkingLotService) : base(printer, parkingLotService)
         {            
             _printer = printer;
             _directory = ConfigReader.Instance.GetValue("FileMode:FileDirectory");

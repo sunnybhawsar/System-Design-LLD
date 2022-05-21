@@ -1,12 +1,13 @@
 ﻿using Parking_Lot.App.src.Models;
 using Parking_Lot.App.src.Printers;
+using Parking_Lot.App.src.Services;
 using System;
 
 namespace Parking_Lot.App.src.Modes
 {
     internal class CommandLineMode : Mode
     {
-        public CommandLineMode(Printer printer) : base(printer)
+        public CommandLineMode(Printer printer, IParkingLotService parkingLotService) : base(printer, parkingLotService)
         {
 
         }

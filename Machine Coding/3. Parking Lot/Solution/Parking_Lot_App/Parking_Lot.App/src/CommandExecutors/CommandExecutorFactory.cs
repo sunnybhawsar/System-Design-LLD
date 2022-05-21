@@ -1,5 +1,6 @@
 ﻿using Parking_Lot.App.src.Models;
 using Parking_Lot.App.src.Printers;
+using Parking_Lot.App.src.Services;
 using System;
 using System.Collections.Generic;
 
@@ -16,13 +17,17 @@ namespace Parking_Lot.App.src.CommandExecutors
         /// </summary>
         /// <param name="command"></param>
         /// <param name="printer"></param>
-        public CommandExecutorFactory(Command command, Printer printer)
+        public CommandExecutorFactory(Command command, Printer printer, IParkingLotService parkingLotService)
         {
             _command = command;
             _commands = new Dictionary<string, CommandExecutor>();
 
             // Add command executors
-            _commands.Add(CreateParkingLotCommandExecutor.cmd, new CreateParkingLotCommandExecutor(command, printer));
+            _commands.Add(CreateParkingLotCommandExecutor.cmd, new CreateParkingLotCommandExecutor(command, printer, parkingLotService));
+            _commands.Add(ParkVehicleCommandExecutor.cmd, new ParkVehicleCommandExecutor(command, printer, parkingLotService));
+            _commands.Add(UnparkVehicleCommandExecutor.cmd, new UnparkVehicleCommandExecutor(command, printer, parkingLotService));
+            _commands.Add(DisplayCommandExecutor.cmd, new DisplayCommandExecutor(command, printer, parkingLotService));
+            _commands.Add(ExitCommandExecutor.cmd, new ExitCommandExecutor(command, printer, parkingLotService));
         }
 
         /// <summary>

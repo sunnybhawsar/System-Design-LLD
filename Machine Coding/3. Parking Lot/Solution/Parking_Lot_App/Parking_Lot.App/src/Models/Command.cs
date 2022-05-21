@@ -9,12 +9,22 @@ namespace Parking_Lot.App.src.Models
 
         public Command(string inputLine)
         {
-            var arr = inputLine.Split(' ');
-            commandName = arr[0];
+            if (!string.IsNullOrEmpty(inputLine) && inputLine.Contains(" "))
+            {
+                var arr = inputLine.Split(' ');
+                if (arr?.Length > 0)
+                {
+                    commandName = arr[0];
 
-            param = new List<string>(arr);
-            if (param.Count > 1)
-                param.RemoveAt(0);
+                    param = new List<string>(arr);
+                    if (param.Count > 1)
+                        param.RemoveAt(0);
+                }
+            }
+            else
+            {
+                commandName = inputLine;
+            }
         }
     }
 }

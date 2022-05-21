@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "029a7/dsUQx4m76IbgtPhQjHU5hr4T3J8Vqtr1iVaWljZ3LL+/BOeNVpcH1yXLLnTLwkhVprdzsEEAn0GleLjQ==",
+  "dgSpecHash": "VGaRwZUhNbBLsuAfiELWhae/nFirEkmuwu27Ua/ejOnn2j16G5DN5tAryoPPU85eMtV47JXRzjb2nNdysR8tFQ==",
   "success": true,
-  "projectFilePath": "D:\\Visual Studio WorkSpace\\Parking_Lot_App\\Parking_Lot.Tests\\Parking_Lot.Tests.csproj",
+  "projectFilePath": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\3. Parking Lot\\Solution\\Parking_Lot_App\\Parking_Lot.Tests\\Parking_Lot.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sunny\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\sunny\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

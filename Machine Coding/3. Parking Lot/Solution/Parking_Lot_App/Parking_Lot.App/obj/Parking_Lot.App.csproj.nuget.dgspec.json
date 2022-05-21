@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio WorkSpace\\Parking_Lot_App\\Parking_Lot.App\\Parking_Lot.App.csproj": {}
+    "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\3. Parking Lot\\Solution\\Parking_Lot_App\\Parking_Lot.App\\Parking_Lot.App.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio WorkSpace\\Parking_Lot_App\\Parking_Lot.App\\Parking_Lot.App.csproj": {
+    "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\3. Parking Lot\\Solution\\Parking_Lot_App\\Parking_Lot.App\\Parking_Lot.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio WorkSpace\\Parking_Lot_App\\Parking_Lot.App\\Parking_Lot.App.csproj",
+        "projectUniqueName": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\3. Parking Lot\\Solution\\Parking_Lot_App\\Parking_Lot.App\\Parking_Lot.App.csproj",
         "projectName": "Parking_Lot.App",
-        "projectPath": "D:\\Visual Studio WorkSpace\\Parking_Lot_App\\Parking_Lot.App\\Parking_Lot.App.csproj",
+        "projectPath": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\3. Parking Lot\\Solution\\Parking_Lot_App\\Parking_Lot.App\\Parking_Lot.App.csproj",
         "packagesPath": "C:\\Users\\sunny\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio WorkSpace\\Parking_Lot_App\\Parking_Lot.App\\obj\\",
+        "outputPath": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\3. Parking Lot\\Solution\\Parking_Lot_App\\Parking_Lot.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sunny\\AppData\\Roaming\\NuGet\\NuGet.Config",
