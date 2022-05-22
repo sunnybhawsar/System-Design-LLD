@@ -4,28 +4,41 @@ namespace Parking_Lot.App.src.Models
 {
     internal class ParkingLot
     {
-        private string _id { get; set; }
-        private int _totalFloors { get; set; }
-        private int _totalSlotsPerFloor { get; set; }
-        private IDictionary<int, Floor> _floors { get; set; }
+        internal string id { get; private set; }
+        internal  int totalFloors { get; private set; }
+        internal  int totalSlotsPerFloor { get; private set; }
+        internal IDictionary<int, Floor> floors { get; private set; }
 
         public ParkingLot(string id, int totalFloors, int totalSlotsPerFloor)
         {            
-            _id = id;
-            _totalFloors = totalFloors;
-            _totalSlotsPerFloor = totalSlotsPerFloor;
+            this.id = id;
+            this.totalFloors = totalFloors;
+            this.totalSlotsPerFloor = totalSlotsPerFloor;
 
-            _floors = new Dictionary<int, Floor>(_totalFloors);
+            this.floors = new Dictionary<int, Floor>(this.totalFloors);
         }
 
         public Floor GetFloor(int floorNumber)
         {
-            if (!_floors.ContainsKey(floorNumber))
+            if (!floors.ContainsKey(floorNumber))
             {
-                _floors.Add(floorNumber, new Floor(floorNumber));
+                floors.Add(floorNumber, new Floor(floorNumber));
             }
 
-            return _floors[floorNumber];
+            return floors[floorNumber];
+        }
+
+        public string ParkVehicle(Vehicle vehicle, int floorNumber, int slotNumber)
+        {
+            string ticketId = $"{id}";
+            Floor floor = GetFloor(floorNumber);
+            if (floor != null)
+            {
+                string floorAndSlot = floor.ParkVehicle(vehicle, slotNumber);
+                ticketId += $"_{floorAndSlot}";
+            }
+
+            return ticketId;
         }
     }
 }

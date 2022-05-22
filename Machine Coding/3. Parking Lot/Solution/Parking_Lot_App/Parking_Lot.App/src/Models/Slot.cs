@@ -1,28 +1,44 @@
-﻿namespace Parking_Lot.App.src.Models
+﻿using Parking_Lot.App.src.Enums;
+
+namespace Parking_Lot.App.src.Models
 {
     internal class Slot
     {
-        private int _slotNumber { get; set; }
-        private Vehicle _parkedVehicle { get; set; }
+        internal int slotNumber { get; private set; }
+        internal VehicleType slotType { get; private set; }
+        internal Vehicle parkedVehicle { get; private set; }
 
         public Slot(int slotNumber)
         {
-            _slotNumber = slotNumber;
+            this.slotNumber = slotNumber;
+
+            if (slotNumber == 1)
+                slotType = VehicleType.TRUCK;
+            else if (slotNumber == 2 || slotNumber == 3)
+                slotType = VehicleType.BIKE;
+            else if (slotNumber >= 4)
+                slotType = VehicleType.CAR;
         }
 
-        public bool IsSlotAvailable()
+        public bool IsSlotAvailable(Vehicle vehicle)
         {
-            return _parkedVehicle == null;
+            if (vehicle.vehicleType == slotType && parkedVehicle == null)
+            {
+                return true;
+            }
+
+            return false;
         }
 
-        public void ParkVehicle(Vehicle vehicle)
+        public int ParkVehicle(Vehicle vehicle)
         {
-            _parkedVehicle = vehicle;
+            parkedVehicle = vehicle;
+            return slotNumber;
         }
 
         public void UnparkVehicle()
         {
-            _parkedVehicle = null;
+            parkedVehicle = null;
         }
     }
 }

@@ -7,12 +7,13 @@ namespace Parking_Lot.App.src.Services
     {
         private static IParkingLotService _parkingLotService;
         private ParkingLot _parkingLot;
+        private int[,] _chart;
 
         /// <summary>
         /// Singleton
         /// </summary>
         private ParkingLotService()
-        {
+        {            
         }
 
         public static IParkingLotService Instance
@@ -39,6 +40,23 @@ namespace Parking_Lot.App.src.Services
             }
 
             _parkingLot = parkingLot;
+            _chart = new int[_parkingLot.totalFloors, _parkingLot.totalSlotsPerFloor];
+        }
+
+        /// <summary>
+        /// Parks the specific vehicle to the appropriate & nearest slot on the nearest floor
+        /// </summary>
+        /// <param name="vehicle"></param>
+        /// <returns>Ticket Id</returns>
+        public string ParkVehicle(Vehicle vehicle)
+        {
+            string ticketId = _parkingLot.id;
+
+            var availableSlot = ParkingScheme.GetAvailableSlot(vehicle, _parkingLot);
+            ticketId = _parkingLot.ParkVehicle(vehicle, availableSlot.floorNumber, availableSlot.slotNumber);
+            _chart[availableSlot.floorNumber - 1, availableSlot.slotNumber - 1] = 1;
+
+            return ticketId;
         }
 
         /// <summary>
@@ -48,6 +66,6 @@ namespace Parking_Lot.App.src.Services
         {
             _parkingLot = null;
             _parkingLotService = null;
-        }
+        }        
     }
 }

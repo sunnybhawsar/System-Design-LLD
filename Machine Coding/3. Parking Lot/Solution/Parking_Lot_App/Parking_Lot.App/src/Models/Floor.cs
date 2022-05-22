@@ -4,23 +4,36 @@ namespace Parking_Lot.App.src.Models
 {
     internal class Floor
     {
-        private int _floorNumber { get; set; }
-        private IDictionary<int, Slot> _slots { get; set; }
+        internal int floorNumber { get; set; }
+        internal IDictionary<int, Slot> slots { get; set; }
 
         public Floor(int floorNumber)
         {
-            _floorNumber = floorNumber;
-            _slots = new Dictionary<int, Slot>();
+            this.floorNumber = floorNumber;
+            slots = new Dictionary<int, Slot>();
         }
 
         public Slot GetSlot(int slotNumber)
         {
-            if (!_slots.ContainsKey(slotNumber))
+            if (!slots.ContainsKey(slotNumber))
             {
-                _slots.Add(slotNumber, new Slot(slotNumber));
+                slots.Add(slotNumber, new Slot(slotNumber));
             }
 
-            return _slots[slotNumber];
+            return slots[slotNumber];
+        }
+
+        public string ParkVehicle(Vehicle vehicle, int slotNumber)
+        {
+            string floorAndSlot = $"{floorNumber}";
+            Slot slot = GetSlot(slotNumber);
+            if(slot != null && slot.IsSlotAvailable(vehicle))
+            {
+                slot.ParkVehicle(vehicle);
+                floorAndSlot += $"_{slot.slotNumber}";
+            }               
+
+            return floorAndSlot;
         }
     }
 }

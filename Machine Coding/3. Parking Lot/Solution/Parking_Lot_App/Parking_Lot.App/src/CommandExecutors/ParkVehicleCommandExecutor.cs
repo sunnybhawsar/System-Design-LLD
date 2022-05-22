@@ -1,7 +1,9 @@
-﻿using Parking_Lot.App.src.Exceptions;
+﻿using Parking_Lot.App.src.Enums;
+using Parking_Lot.App.src.Exceptions;
 using Parking_Lot.App.src.Models;
 using Parking_Lot.App.src.Printers;
 using Parking_Lot.App.src.Services;
+using System;
 
 namespace Parking_Lot.App.src.CommandExecutors
 {
@@ -36,7 +38,14 @@ namespace Parking_Lot.App.src.CommandExecutors
         {
             if (IsValid())
             {
-                throw new ServiceNotAvailableException();
+                VehicleType vehicleType = Enum.Parse<VehicleType>(command.param[0]?.Trim(), ignoreCase:true);
+                string regNo = command.param[1]?.Trim();
+                Color color = Enum.Parse<Color>(command.param[2]?.Trim(), ignoreCase:true);
+
+                Vehicle vehicle = new Vehicle(vehicleType, regNo, color );
+
+                string ticketId = parkingLotService.ParkVehicle(vehicle);
+                printer.Print($"Parked vehicle. Ticket ID: {ticketId}");
             }
             else
             {

@@ -10,6 +10,7 @@ namespace Parking_Lot.App.src.Services
     internal interface IParkingLotService
     {
         void CreateParkingLot(ParkingLot parkingLot);
+        string ParkVehicle(Vehicle vehicle);
         void Close();
     }
 }
