@@ -12,6 +12,7 @@ namespace Parking_Lot.App.src.Models
         {
             this.slotNumber = slotNumber;
 
+            // Additional security based on the Parking Scheme
             if (slotNumber == 1)
                 slotType = VehicleType.TRUCK;
             else if (slotNumber == 2 || slotNumber == 3)
@@ -36,9 +37,11 @@ namespace Parking_Lot.App.src.Models
             return slotNumber;
         }
 
-        public void UnparkVehicle()
+        public Vehicle UnparkVehicle()
         {
+            var vehicle = parkedVehicle;
             parkedVehicle = null;
+            return vehicle;
         }
     }
 }

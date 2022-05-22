@@ -2,6 +2,7 @@
 using Parking_Lot.App.src.Models;
 using Parking_Lot.App.src.Printers;
 using Parking_Lot.App.src.Services;
+using System.Text.RegularExpressions;
 
 namespace Parking_Lot.App.src.CommandExecutors
 {
@@ -24,7 +25,12 @@ namespace Parking_Lot.App.src.CommandExecutors
 
         public override bool IsValid()
         {
-            if (command.param != null && command.param.Count == 1)
+            if (command.param != null 
+                && command.param.Count == 1 
+                && !string.IsNullOrEmpty(command.param[0])
+                && command.param[0].Contains('_')
+                //&& Regex.Match(command.param[0].Trim(), @"^\w\+_?\d{1}\+_?\d{1}", RegexOptions.IgnoreCase).Success
+                )
             {
                 return true;
             }
@@ -36,7 +42,10 @@ namespace Parking_Lot.App.src.CommandExecutors
         {
             if (IsValid())
             {
-                throw new ServiceNotAvailableException();
+                string ticketId = command.param[0]?.Trim();
+                Vehicle vehicle = parkingLotService.UnParkVehicle(ticketId);
+
+                printer.Print($"Unparked vehicle with Registration Number: {vehicle?.registrationNumber} and Color: {vehicle?.color.ToString()}");
             }
             else
             {

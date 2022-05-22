@@ -1,5 +1,6 @@
 ﻿using Parking_Lot.App.src.Exceptions;
 using Parking_Lot.App.src.Models;
+using System;
 
 namespace Parking_Lot.App.src.Services
 {
@@ -57,6 +58,26 @@ namespace Parking_Lot.App.src.Services
             _chart[availableSlot.floorNumber - 1, availableSlot.slotNumber - 1] = 1;
 
             return ticketId;
+        }
+
+        /// <summary>
+        /// Un parks the vehicle from the occupied slot based on the valid Ticket Id
+        /// </summary>
+        /// <param name="ticketId"></param>
+        /// <returns>Parked vehicle instance</returns>
+        public Vehicle UnParkVehicle(string ticketId)
+        {
+            Vehicle vehicle = null;
+            var parts = ticketId?.Split('_');
+            int floorNo = Convert.ToInt32(parts[1]);
+            int slotNo = Convert.ToInt32(parts[2]);
+
+            if (floorNo > 0 && floorNo <= _parkingLot.totalFloors && slotNo > 0 &&  slotNo <= _parkingLot.totalSlotsPerFloor)
+                vehicle = _parkingLot.UnparkVehicle(floorNo, slotNo);
+            else
+                throw new ParkingLotException("Invalid Ticket");
+
+            return vehicle;
         }
 
         /// <summary>

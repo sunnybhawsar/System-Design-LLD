@@ -18,6 +18,11 @@ namespace Parking_Lot.App.src.Models
             this.floors = new Dictionary<int, Floor>(this.totalFloors);
         }
 
+        /// <summary>
+        /// Gets the floor from the dictionary, adds the floor to the dictionary if absent
+        /// </summary>
+        /// <param name="floorNumber"></param>
+        /// <returns>Instance of the Floor</returns>
         public Floor GetFloor(int floorNumber)
         {
             if (!floors.ContainsKey(floorNumber))
@@ -28,6 +33,13 @@ namespace Parking_Lot.App.src.Models
             return floors[floorNumber];
         }
 
+        /// <summary>
+        /// Parks the specific vehicle to the specific available slot
+        /// </summary>
+        /// <param name="vehicle"></param>
+        /// <param name="floorNumber"></param>
+        /// <param name="slotNumber"></param>
+        /// <returns>Ticket Id</returns>
         public string ParkVehicle(Vehicle vehicle, int floorNumber, int slotNumber)
         {
             string ticketId = $"{id}";
@@ -39,6 +51,12 @@ namespace Parking_Lot.App.src.Models
             }
 
             return ticketId;
+        }
+
+        public Vehicle UnparkVehicle(int floorNumber, int slotNumber)
+        {
+            Floor floor = GetFloor(floorNumber);
+            return floor?.UnParkVehicle(slotNumber) ?? null;
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Parking_Lot.App.src.Exceptions;
+using System.Collections.Generic;
 
 namespace Parking_Lot.App.src.Models
 {
@@ -34,6 +35,28 @@ namespace Parking_Lot.App.src.Models
             }               
 
             return floorAndSlot;
+        }
+
+        /// <summary>
+        /// Unparks the vehicle from the occupied slot only if there is a vehicle parked
+        /// </summary>
+        /// <param name="slotNumber"></param>
+        /// <returns>Instance of the parked vehicle</returns>
+        public Vehicle UnParkVehicle(int slotNumber)
+        {
+            Vehicle vehicle = null;
+            Slot slot = GetSlot(slotNumber);
+
+            if (slot != null && slot.parkedVehicle != null)
+            {
+                vehicle = slot.UnparkVehicle();
+            }
+            else
+            {
+                throw new ParkingLotException("Invalid Ticket");
+            }
+
+            return vehicle;
         }
     }
 }

@@ -11,6 +11,7 @@ namespace Parking_Lot.App.src.Services
     {
         void CreateParkingLot(ParkingLot parkingLot);
         string ParkVehicle(Vehicle vehicle);
+        Vehicle UnParkVehicle(string ticketId);
         void Close();
     }
 }
