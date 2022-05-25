@@ -31,12 +31,12 @@ namespace Parking_Lot.App.src
             switch (_inputMode)
             {
                 case InputMode.CommandLine:
-                    printer = new CommandLinePrinter();
+                    printer = CommandLinePrinter.Instance;
                     mode = new CommandLineMode(printer, _parkingLotService).Process();
                     break;
 
                 case InputMode.File:
-                    printer = new FilePrinter();
+                    printer = FilePrinter.Instance;
                     mode = new FileMode(printer, _parkingLotService).Process();
                     break;
             }

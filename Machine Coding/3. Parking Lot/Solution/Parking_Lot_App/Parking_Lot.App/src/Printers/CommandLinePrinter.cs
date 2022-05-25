@@ -4,9 +4,27 @@ namespace Parking_Lot.App.src.Printers
 {
     internal class CommandLinePrinter : Printer
     {
-        public CommandLinePrinter() : base()
-        {
+        private static CommandLinePrinter _commandLinePrinter;
 
+        /// <summary>
+        /// Singleton
+        /// </summary>
+        private CommandLinePrinter() : base()
+        {
+        }
+
+        /// <summary>
+        /// Returns Singleton instance of the CommandLinePrinter
+        /// </summary>
+        public static CommandLinePrinter Instance
+        {
+            get
+            {
+                if (_commandLinePrinter == null)
+                    _commandLinePrinter = new CommandLinePrinter();
+
+                return _commandLinePrinter;
+            }
         }
 
         /// <summary>

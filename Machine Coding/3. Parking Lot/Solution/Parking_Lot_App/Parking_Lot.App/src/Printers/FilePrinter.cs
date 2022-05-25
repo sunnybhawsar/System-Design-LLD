@@ -5,13 +5,35 @@ namespace Parking_Lot.App.src.Printers
 {
     internal class FilePrinter : Printer
     {
+        private static FilePrinter _filePrinter;
+        private object _lock = new object();
         private readonly string _directory;
         private readonly string _fileName;
 
-        public FilePrinter() : base()
+        /// <summary>
+        /// Singleton
+        /// </summary>
+        private FilePrinter() : base()
         {
             _directory = ConfigReader.Instance.GetValue("FileMode:FileDirectory");
-            _fileName = ConfigReader.Instance.GetValue("FileMode:OutputFileName");            
+            _fileName = ConfigReader.Instance.GetValue("FileMode:OutputFileName");
+
+            // Clear the output file once
+            File.WriteAllText(_directory + _fileName + ".txt", "");
+        }
+
+        /// <summary>
+        /// Returns Singleton instance of the FilePrinter
+        /// </summary>
+        public static FilePrinter Instance
+        {
+            get
+            {
+                if(_filePrinter == null)
+                    _filePrinter = new FilePrinter();
+
+                return _filePrinter;
+            }
         }
 
         /// <summary>
@@ -20,8 +42,11 @@ namespace Parking_Lot.App.src.Printers
         /// <param name="outputLine"></param>
         public override void Print(string outputLine)
         {
-            using StreamWriter streamWriter = File.AppendText(_directory + _fileName + ".txt");
-            streamWriter.WriteLine(outputLine);
+            lock (_lock)
+            {
+                using StreamWriter streamWriter = File.AppendText(_directory + _fileName + ".txt");
+                streamWriter.WriteLine(outputLine);
+            }
         }
     }
 }
