@@ -1,0 +1,52 @@
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Parking_Lot.App.exe
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Parking_Lot.App.deps.json
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Parking_Lot.App.runtimeconfig.json
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Parking_Lot.App.runtimeconfig.dev.json
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Parking_Lot.App.dll
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Parking_Lot.App.pdb
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.csproj.AssemblyReference.cache
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.AssemblyInfoInputs.cache
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.AssemblyInfo.cs
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.csproj.CoreCompileInputs.cache
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.csproj.CopyComplete
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.dll
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\refint\Parking_Lot.App.dll
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.pdb
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.genruntimeconfig.cache
+D:\Visual Studio WorkSpace\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\ref\Parking_Lot.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Parking_Lot.App.exe
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Parking_Lot.App.deps.json
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Parking_Lot.App.runtimeconfig.json
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Parking_Lot.App.runtimeconfig.dev.json
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Parking_Lot.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Parking_Lot.App.pdb
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.csproj.AssemblyReference.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.AssemblyInfoInputs.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.AssemblyInfo.cs
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.csproj.CoreCompileInputs.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.csproj.CopyComplete
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\refint\Parking_Lot.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.pdb
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\Parking_Lot.App.genruntimeconfig.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\3. Parking Lot\Solution\Parking_Lot_App\Parking_Lot.App\obj\Debug\net5.0\ref\Parking_Lot.App.dll
