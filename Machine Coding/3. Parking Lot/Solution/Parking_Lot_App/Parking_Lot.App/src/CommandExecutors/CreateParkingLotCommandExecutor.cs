@@ -27,7 +27,10 @@ namespace Parking_Lot.App.src.CommandExecutors
         public override bool IsValid()
         {
             if (command.param != null && command.param.Count == 3)
-                return true;
+            {
+                if(Convert.ToInt32(command.param[1]?.Trim()) > 0 && Convert.ToInt32(command.param[2]?.Trim()) > 0)
+                    return true;
+            }
 
             return false;
         }

@@ -28,7 +28,7 @@ namespace Parking_Lot.App.src.Models
         {
             string floorAndSlot = $"{floorNumber}";
             Slot slot = GetSlot(slotNumber);
-            if(slot != null && slot.IsSlotAvailable(vehicle))
+            if(slot != null && slot.IsSlotAvailable(vehicle.vehicleType))
             {
                 slot.ParkVehicle(vehicle);
                 floorAndSlot += $"_{slot.slotNumber}";

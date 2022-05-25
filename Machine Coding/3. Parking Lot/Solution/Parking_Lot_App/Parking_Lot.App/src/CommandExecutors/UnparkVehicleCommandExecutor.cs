@@ -29,7 +29,7 @@ namespace Parking_Lot.App.src.CommandExecutors
                 && command.param.Count == 1 
                 && !string.IsNullOrEmpty(command.param[0])
                 && command.param[0].Contains('_')
-                //&& Regex.Match(command.param[0].Trim(), @"^\w\+_?\d{1}\+_?\d{1}", RegexOptions.IgnoreCase).Success
+                //&& Regex.Match(command.param[0].Trim(), @"^[A-Za-z1-9_]\d{1}\\[_]{1}\d{1}$", RegexOptions.IgnoreCase).Success
                 )
             {
                 return true;

@@ -21,9 +21,9 @@ namespace Parking_Lot.App.src.Models
                 slotType = VehicleType.CAR;
         }
 
-        public bool IsSlotAvailable(Vehicle vehicle)
+        public bool IsSlotAvailable(VehicleType vehicleType)
         {
-            if (vehicle.vehicleType == slotType && parkedVehicle == null)
+            if (vehicleType == slotType && parkedVehicle == null)
             {
                 return true;
             }

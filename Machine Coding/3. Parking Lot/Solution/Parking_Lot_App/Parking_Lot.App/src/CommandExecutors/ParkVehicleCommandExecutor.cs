@@ -28,7 +28,9 @@ namespace Parking_Lot.App.src.CommandExecutors
         {
             if (command.param != null && command.param.Count == 3)
             {
-                return true;
+                if(Enum.TryParse<VehicleType>(command.param[0]?.Trim(), ignoreCase:true, out VehicleType vehicleType) &&
+                   Enum.TryParse<Color>(command.param[2]?.Trim(), ignoreCase: true, out Color color))
+                    return true;
             }
 
             return false;
