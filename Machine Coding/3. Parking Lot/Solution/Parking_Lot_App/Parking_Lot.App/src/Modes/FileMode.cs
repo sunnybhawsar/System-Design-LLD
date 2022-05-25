@@ -16,7 +16,7 @@ namespace Parking_Lot.App.src.Modes
         public FileMode(Printer printer, IParkingLotService parkingLotService) : base(printer, parkingLotService)
         {            
             _printer = printer;
-            _directory = ConfigReader.Instance.GetValue("FileMode:FileDirectory");
+            _directory = DirectoryHelper.Instance.GetCurrentDirectory() + ConfigReader.Instance.GetValue("FileMode:FolderName");
             _fileName = ConfigReader.Instance.GetValue("FileMode:InputFileName");
         }
 

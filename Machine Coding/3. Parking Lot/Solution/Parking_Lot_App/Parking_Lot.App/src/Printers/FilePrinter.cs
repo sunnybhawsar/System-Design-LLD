@@ -14,8 +14,8 @@ namespace Parking_Lot.App.src.Printers
         /// Singleton
         /// </summary>
         private FilePrinter() : base()
-        {
-            _directory = ConfigReader.Instance.GetValue("FileMode:FileDirectory");
+        {            
+            _directory = DirectoryHelper.Instance.GetCurrentDirectory() + ConfigReader.Instance.GetValue("FileMode:FolderName");
             _fileName = ConfigReader.Instance.GetValue("FileMode:OutputFileName");
 
             // Clear the output file once
