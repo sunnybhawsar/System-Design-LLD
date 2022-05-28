@@ -1,8 +1,8 @@
-#Problem:
+## Problem:
 
 Design a Generic Cache.
 
-## Requirements:
+### Requirements:
 
 Low level design for a Generic Cache that should support following operations:
 * **Put**: This will allow user to put a value against a key in the cache.
