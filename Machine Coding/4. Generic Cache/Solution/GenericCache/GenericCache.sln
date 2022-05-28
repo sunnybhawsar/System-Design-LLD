@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCache.App", "GenericCache.App\GenericCache.App.csproj", "{1EC28571-0E30-4BA1-9098-2B52E703E465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCache.Tests", "GenericCache.Tests\GenericCache.Tests.csproj", "{CB971567-E75A-4DDF-ADF9-726AB073C484}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EC28571-0E30-4BA1-9098-2B52E703E465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC28571-0E30-4BA1-9098-2B52E703E465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC28571-0E30-4BA1-9098-2B52E703E465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC28571-0E30-4BA1-9098-2B52E703E465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB971567-E75A-4DDF-ADF9-726AB073C484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB971567-E75A-4DDF-ADF9-726AB073C484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB971567-E75A-4DDF-ADF9-726AB073C484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB971567-E75A-4DDF-ADF9-726AB073C484}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9460985-BE5B-4EAB-A0A0-17F29A1B7033}
+	EndGlobalSection
+EndGlobal
