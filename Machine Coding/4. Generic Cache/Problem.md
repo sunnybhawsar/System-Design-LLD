@@ -9,6 +9,10 @@ Low level design for a Generic Cache that should support following operations:
 * **Get**: This will allow user to get the previously saved value using key.
 * **Eviction**: Cache should also support removal of some key in case cache is full, and we try to add new key value.
 
+    > LRU: Least Recently Used
+    
+    > LFU: Least Frequenctly Used
+
 ### Expectations
 * Code should be functionally correct.
 * Code should be modular and readable. Clean and professional level code.
