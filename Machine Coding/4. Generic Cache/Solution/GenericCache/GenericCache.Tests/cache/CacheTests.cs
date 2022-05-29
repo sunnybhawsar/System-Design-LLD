@@ -7,10 +7,15 @@ namespace GenericCache.Tests.cache
     public class CacheTests
     {
 
+        /// <summary>
+        /// Taking cache with 'key of type int' and 'value of type string'
+        /// </summary>
+        /// <param name="storageType"></param>
+        /// <param name="evictionPolicyType"></param>
         [Theory]
         [InlineData(StorageType.DICTIONARY, EvictionPolicyType.LRU)]
         [InlineData(StorageType.DICTIONARY, EvictionPolicyType.DATETIME)]
-        public void TestWithDiffStoresAndPolicies(StorageType storageType, EvictionPolicyType evictionPolicyType)
+        public void TestInt_StringTypeWithDiffStoresAndPolicies(StorageType storageType, EvictionPolicyType evictionPolicyType)
         {
             // Arrange
             const int _cacheCapacity = 4;
@@ -34,6 +39,40 @@ namespace GenericCache.Tests.cache
             Assert.Equal("Value4", _cache.Get(4));
             Assert.Equal("Value5", _cache.Get(5));
             Assert.Equal("Value60", _cache.Get(6));
+        }
+
+        /// <summary>
+        /// Taking cache with 'key of type string' and 'value of type double'
+        /// </summary>
+        /// <param name="storageType"></param>
+        /// <param name="evictionPolicyType"></param>
+        [Theory]
+        [InlineData(StorageType.DICTIONARY, EvictionPolicyType.LRU)]
+        [InlineData(StorageType.DICTIONARY, EvictionPolicyType.DATETIME)]
+        public void TestString_DoubleTypeWithDiffStoresAndPolicies(StorageType storageType, EvictionPolicyType evictionPolicyType)
+        {
+            // Arrange
+            const int _cacheCapacity = 4;
+            ICache<string, double?> _cache = new CacheFactory<string, double?>(storageType, evictionPolicyType, _cacheCapacity).GetCache();
+            _cache.Purge();
+
+            // Act
+            _cache.Put("Key1", 1.001);
+            _cache.Put("Key2", 2.002);
+            _cache.Put("Key3", 3.003);
+            _cache.Put("Key4", 4.004);
+            _cache.Put("Key5", 5.005);
+            _cache.Put("Key6", 6.006);
+            _cache.Put("Key2", 20.0020);
+            _cache.Put("Key6", 60.0060);
+
+            // Assert
+            Assert.Null(_cache.Get("Key1")); // Got evicted
+            Assert.Equal(20.0020, _cache.Get("Key2"));
+            Assert.Null(_cache.Get("Key3")); // Got evicted
+            Assert.Equal(4.004, _cache.Get("Key4"));
+            Assert.Equal(5.005, _cache.Get("Key5"));
+            Assert.Equal(60.0060, _cache.Get("Key6"));
         }
     }
 }
