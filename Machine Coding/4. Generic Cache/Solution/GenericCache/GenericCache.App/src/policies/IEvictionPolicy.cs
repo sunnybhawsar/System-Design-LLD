@@ -13,5 +13,10 @@
         /// </summary>
         /// <returns>Dynamic type of key</returns>
         K? GetKeyToEvict();
+
+        /// <summary>
+        /// Resets all the dependencies
+        /// </summary>
+        void Reset();
     }
 }

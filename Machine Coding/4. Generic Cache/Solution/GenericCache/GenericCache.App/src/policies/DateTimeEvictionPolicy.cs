@@ -45,15 +45,27 @@
         /// <returns></returns>
         public K? GetKeyToEvict()
         {
-            K? bestKey = default(K);
-            var orderedTrack = _track.OrderBy(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
-            foreach (var key in orderedTrack.Keys)
+            K? bestKey;
+            try
             {
-                bestKey = key;
-                break;
+                var orderedTrack = _track.OrderBy(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
+                bestKey = orderedTrack.Keys.FirstOrDefault();
+                _track.Remove(bestKey);
             }
+            catch(Exception e)
+            {
+                bestKey = default(K);
+            }            
 
             return bestKey;
+        }
+
+        /// <summary>
+        /// Resets the tracking dictionary
+        /// </summary>
+        public void Reset()
+        {
+            _track.Clear();
         }
     }
 }

@@ -9,21 +9,25 @@ namespace GenericCache.App.src.cache
         private IStore<K, V> _store;
         private IEvictionPolicy<K> _evictionPolicy;
 
-        public CacheFactory(StorageType storageType, EvictionPolicyType policyType)
+        public CacheFactory(StorageType storageType, EvictionPolicyType policyType, int cacheCapacity)
         {
             switch (storageType)
             {
                 default:
                 case StorageType.DICTIONARY:
-                    _store = DictionaryStore<K, V>.Instance;
+                    _store = DictionaryStore<K, V>.Instance(cacheCapacity);
                     break;
             }
 
             switch (policyType)
-            {
-                default:
+            {                
                 case EvictionPolicyType.DATETIME:
                     _evictionPolicy = DateTimeEvictionPolicy<K>.Instance;
+                    break;
+
+                default:
+                case EvictionPolicyType.LRU:
+                    _evictionPolicy = LruEvictionPolicy<K>.Instance;
                     break;
             }   
         }

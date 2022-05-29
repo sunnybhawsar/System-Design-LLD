@@ -15,5 +15,10 @@
         /// <param name="key"></param>
         /// <returns>Dynamic type of value</returns>
         V? Get(K key);
+
+        /// <summary>
+        /// Resets the cache & other dependencies
+        /// </summary>
+        void Purge();
     }
 }

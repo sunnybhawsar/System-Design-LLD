@@ -27,7 +27,7 @@ namespace GenericCache.App.src.cache
                 Console.WriteLine(e.Message);
                 return default(V);
             }
-        }
+        }        
 
         public void Put(K key, V value)
         {
@@ -45,6 +45,12 @@ namespace GenericCache.App.src.cache
                 _store.RemoveKey(removableKey);
                 Put(key, value);
             }
+        }
+
+        public void Purge()
+        {            
+            _evictionPolicy.Reset();
+            _store.Purge();
         }
     }
 }

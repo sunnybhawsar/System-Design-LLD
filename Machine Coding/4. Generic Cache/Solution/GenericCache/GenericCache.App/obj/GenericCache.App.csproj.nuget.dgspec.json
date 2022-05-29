@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio WorkSpace\\GenericCache\\GenericCache.App\\GenericCache.App.csproj": {}
+    "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\4. Generic Cache\\Solution\\GenericCache\\GenericCache.App\\GenericCache.App.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio WorkSpace\\GenericCache\\GenericCache.App\\GenericCache.App.csproj": {
+    "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\4. Generic Cache\\Solution\\GenericCache\\GenericCache.App\\GenericCache.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio WorkSpace\\GenericCache\\GenericCache.App\\GenericCache.App.csproj",
+        "projectUniqueName": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\4. Generic Cache\\Solution\\GenericCache\\GenericCache.App\\GenericCache.App.csproj",
         "projectName": "GenericCache.App",
-        "projectPath": "D:\\Visual Studio WorkSpace\\GenericCache\\GenericCache.App\\GenericCache.App.csproj",
+        "projectPath": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\4. Generic Cache\\Solution\\GenericCache\\GenericCache.App\\GenericCache.App.csproj",
         "packagesPath": "C:\\Users\\sunny\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio WorkSpace\\GenericCache\\GenericCache.App\\obj\\",
+        "outputPath": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\4. Generic Cache\\Solution\\GenericCache\\GenericCache.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sunny\\AppData\\Roaming\\NuGet\\NuGet.Config",

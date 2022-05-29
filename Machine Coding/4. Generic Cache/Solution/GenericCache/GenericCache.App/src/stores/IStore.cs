@@ -21,5 +21,10 @@
         /// </summary>
         /// <param name="key"></param>
         void RemoveKey(K key);
+
+        /// <summary>
+        /// Resets the store
+        /// </summary>
+        void Purge();
     }
 }

@@ -6,28 +6,26 @@ namespace GenericCache.App.src.stores
     {
         private static DictionaryStore<K, V> _instance;
         private IDictionary<K, V> _store;
-        private const int _storeLimit = 5;
+        private readonly int _capacity;
 
         /// <summary>
         /// Singleton
         /// </summary>
-        private DictionaryStore()
+        private DictionaryStore(int capacity)
         {
-            _store = new Dictionary<K, V>(_storeLimit);
+            _capacity = capacity;
+            _store = new Dictionary<K, V>(_capacity);
         }
 
         /// <summary>
         /// Get singleton instance of DictionaryStore
         /// </summary>
-        public static DictionaryStore<K, V> Instance
+        public static DictionaryStore<K, V> Instance(int capacity)
         {
-            get
-            {
-                if (_instance == null)
-                    _instance = new DictionaryStore<K, V>();
+            if (_instance == null)
+                _instance = new DictionaryStore<K, V>(capacity);
 
-                return _instance;
-            }
+            return _instance;
         }
 
         public V GetValue(K key)
@@ -42,7 +40,7 @@ namespace GenericCache.App.src.stores
         {
             if (_store.ContainsKey(key))
                 _store[key] = value;
-            else if (_store.Count <= _storeLimit)
+            else if (_store.Count < _capacity)
                 _store.Add(key, value);
             else
                 throw new StoreIsFullException();
@@ -55,6 +53,11 @@ namespace GenericCache.App.src.stores
                 _store.Remove(key);
             else
                 throw new KeyNotFoundInStoreException();
+        }
+
+        public void Purge()
+        {
+            _store.Clear();
         }
     }
 }

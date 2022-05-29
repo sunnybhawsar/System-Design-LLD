@@ -13,3 +13,18 @@ D:\Visual Studio WorkSpace\GenericCache\GenericCache.App\obj\Debug\net6.0\refint
 D:\Visual Studio WorkSpace\GenericCache\GenericCache.App\obj\Debug\net6.0\GenericCache.App.pdb
 D:\Visual Studio WorkSpace\GenericCache\GenericCache.App\obj\Debug\net6.0\GenericCache.App.genruntimeconfig.cache
 D:\Visual Studio WorkSpace\GenericCache\GenericCache.App\obj\Debug\net6.0\ref\GenericCache.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\4. Generic Cache\Solution\GenericCache\GenericCache.App\bin\Debug\net6.0\GenericCache.App.exe
+D:\Github\Learning\System-Design-LLD\Machine Coding\4. Generic Cache\Solution\GenericCache\GenericCache.App\bin\Debug\net6.0\GenericCache.App.deps.json
+D:\Github\Learning\System-Design-LLD\Machine Coding\4. Generic Cache\Solution\GenericCache\GenericCache.App\bin\Debug\net6.0\GenericCache.App.runtimeconfig.json
+D:\Github\Learning\System-Design-LLD\Machine Coding\4. Generic Cache\Solution\GenericCache\GenericCache.App\bin\Debug\net6.0\GenericCache.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\4. Generic Cache\Solution\GenericCache\GenericCache.App\bin\Debug\net6.0\GenericCache.App.pdb
+D:\Github\Learning\System-Design-LLD\Machine Coding\4. Generic Cache\Solution\GenericCache\GenericCache.App\obj\Debug\net6.0\GenericCache.App.csproj.AssemblyReference.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\4. Generic Cache\Solution\GenericCache\GenericCache.App\obj\Debug\net6.0\GenericCache.App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Learning\System-Design-LLD\Machine Coding\4. Generic Cache\Solution\GenericCache\GenericCache.App\obj\Debug\net6.0\GenericCache.App.AssemblyInfoInputs.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\4. Generic Cache\Solution\GenericCache\GenericCache.App\obj\Debug\net6.0\GenericCache.App.AssemblyInfo.cs
+D:\Github\Learning\System-Design-LLD\Machine Coding\4. Generic Cache\Solution\GenericCache\GenericCache.App\obj\Debug\net6.0\GenericCache.App.csproj.CoreCompileInputs.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\4. Generic Cache\Solution\GenericCache\GenericCache.App\obj\Debug\net6.0\GenericCache.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\4. Generic Cache\Solution\GenericCache\GenericCache.App\obj\Debug\net6.0\refint\GenericCache.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\4. Generic Cache\Solution\GenericCache\GenericCache.App\obj\Debug\net6.0\GenericCache.App.pdb
+D:\Github\Learning\System-Design-LLD\Machine Coding\4. Generic Cache\Solution\GenericCache\GenericCache.App\obj\Debug\net6.0\GenericCache.App.genruntimeconfig.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\4. Generic Cache\Solution\GenericCache\GenericCache.App\obj\Debug\net6.0\ref\GenericCache.App.dll
