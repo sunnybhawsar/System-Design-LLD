@@ -2,6 +2,9 @@
 
 Design a Generic Cache.
 
+![image](https://user-images.githubusercontent.com/36097146/170865275-51523d9a-a7cf-4d5d-9313-dbca56f82fe6.png)
+
+
 ### Requirements:
 
 Low level design for a Generic Cache that should support following operations:
