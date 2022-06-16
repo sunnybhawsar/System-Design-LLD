@@ -245,7 +245,7 @@ Print output based on the specific commands as mentioned below.
 	9. No need to create a GUI
 	
 ### Optional Requirements
-Please do these only if you’ve time left. You can write your code such that these could be accommodated without changing your code much.
+Write your code such that these could be accommodated without changing your code much.
 
 	1. Keep the code extensible to add additional types of vehicles and slot types.
 	
