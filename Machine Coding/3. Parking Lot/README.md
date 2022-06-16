@@ -1,7 +1,5 @@
 # Problem - Parking Lot:
 
-https://workat.tech/machine-coding/practice/design-parking-lot-qm6hwq4wkhp8
-
 A parking lot is an area where cars can be parked for a certain amount of time. A parking lot can have multiple floors with each floor having a different number of slots and each slot being suitable for different types of vehicles.
 
 ![image](https://user-images.githubusercontent.com/36097146/169682317-9e4b41e6-99d9-47f8-993a-459a40982d9a.png)
@@ -260,6 +258,8 @@ Please do these only if you’ve time left. You can write your code such that th
 	5. Keep the system thread-safe to allow concurrent requests.
 
 
-# Explaination in Java
+# Problem & Explaination in Java
 
-https://www.youtube.com/watch?v=7IX84K9g23U&list=PL564gOx0bCLqTolRIHIsR2JPv11w8LESW&index=1&t=904s
+* https://workat.tech/machine-coding/practice/design-parking-lot-qm6hwq4wkhp8
+
+* https://www.youtube.com/watch?v=7IX84K9g23U&list=PL564gOx0bCLqTolRIHIsR2JPv11w8LESW&index=1&t=904s
