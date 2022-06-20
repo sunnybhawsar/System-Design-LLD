@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio WorkSpace\\TicTacToe\\TicTacToe.Tests\\TicTacToe.Tests.csproj": {}
+    "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.Tests\\TicTacToe.Tests.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio WorkSpace\\TicTacToe\\TicTacToe.Tests\\TicTacToe.Tests.csproj": {
+    "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.App\\TicTacToe.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio WorkSpace\\TicTacToe\\TicTacToe.Tests\\TicTacToe.Tests.csproj",
-        "projectName": "TicTacToe.Tests",
-        "projectPath": "D:\\Visual Studio WorkSpace\\TicTacToe\\TicTacToe.Tests\\TicTacToe.Tests.csproj",
+        "projectUniqueName": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.App\\TicTacToe.App.csproj",
+        "projectName": "TicTacToe.App",
+        "projectPath": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.App\\TicTacToe.App.csproj",
         "packagesPath": "C:\\Users\\sunny\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio WorkSpace\\TicTacToe\\TicTacToe.Tests\\obj\\",
+        "outputPath": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sunny\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,6 +28,70 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.Tests\\TicTacToe.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.Tests\\TicTacToe.Tests.csproj",
+        "projectName": "TicTacToe.Tests",
+        "projectPath": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.Tests\\TicTacToe.Tests.csproj",
+        "packagesPath": "C:\\Users\\sunny\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sunny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.App\\TicTacToe.App.csproj": {
+                "projectPath": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.App\\TicTacToe.App.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

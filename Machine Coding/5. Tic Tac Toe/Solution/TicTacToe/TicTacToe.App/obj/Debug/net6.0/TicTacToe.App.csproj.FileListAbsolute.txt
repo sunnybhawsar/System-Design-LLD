@@ -1,0 +1,101 @@
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\TicTacToe.App.exe
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\TicTacToe.App.deps.json
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\TicTacToe.App.runtimeconfig.json
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\TicTacToe.App.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\TicTacToe.App.pdb
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Build.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Build.Utilities.Core.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.DotNet.Cli.Utils.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Hosting.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Logging.Console.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Logging.Debug.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventLog.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventSource.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\NuGet.Common.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\NuGet.Packaging.Core.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\cs\Microsoft.DotNet.Cli.Utils.resources.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\de\Microsoft.DotNet.Cli.Utils.resources.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\es\Microsoft.DotNet.Cli.Utils.resources.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\fr\Microsoft.DotNet.Cli.Utils.resources.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\it\Microsoft.DotNet.Cli.Utils.resources.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\ja\Microsoft.DotNet.Cli.Utils.resources.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\ko\Microsoft.DotNet.Cli.Utils.resources.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\pl\Microsoft.DotNet.Cli.Utils.resources.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\pt-BR\Microsoft.DotNet.Cli.Utils.resources.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\ru\Microsoft.DotNet.Cli.Utils.resources.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\tr\Microsoft.DotNet.Cli.Utils.resources.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\zh-Hans\Microsoft.DotNet.Cli.Utils.resources.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\zh-Hant\Microsoft.DotNet.Cli.Utils.resources.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\runtimes\unix\lib\netstandard1.3\System.Security.Cryptography.ProtectedData.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\bin\Debug\net6.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.ProtectedData.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.csproj.AssemblyReference.cache
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.AssemblyInfoInputs.cache
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.AssemblyInfo.cs
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.csproj.CoreCompileInputs.cache
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.csproj.CopyComplete
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\obj\Debug\net6.0\refint\TicTacToe.App.dll
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.pdb
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.genruntimeconfig.cache
+D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\obj\Debug\net6.0\ref\TicTacToe.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\TicTacToe.App.exe
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\TicTacToe.App.deps.json
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\TicTacToe.App.runtimeconfig.json
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\TicTacToe.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\TicTacToe.App.pdb
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.csproj.AssemblyReference.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.AssemblyInfoInputs.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.AssemblyInfo.cs
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.csproj.CoreCompileInputs.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.csproj.CopyComplete
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\refint\TicTacToe.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.pdb
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.genruntimeconfig.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\ref\TicTacToe.App.dll
