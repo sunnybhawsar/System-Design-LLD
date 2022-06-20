@@ -52,7 +52,13 @@ namespace TicTacToe.App.Src.Models
             _printer.Print(text);
         }
 
-
+        /// <summary>
+        /// Makes applicable move on the game board for the player
+        /// </summary>
+        /// <param name="player"></param>
+        /// <param name="row"></param>
+        /// <param name="col"></param>
+        /// <exception cref="InvalidMoveException"></exception>
         internal void MakeMove(Player player, int row, int col)
         {
             if (row >= 0 && col >= 0 && row < _size && col < _size && _board[row, col] == '-')
@@ -66,26 +72,35 @@ namespace TicTacToe.App.Src.Models
                 throw new InvalidMoveException();
         }
 
+        /// <summary>
+        /// Checks the winner after each move on the board for row/col/diagonal/reverseDiagonal
+        /// </summary>
+        /// <remarks>
+        /// Player wins when he/she makes a move
+        /// </remarks>
+        /// <param name="player"></param>
+        /// <param name="row"></param>
+        /// <param name="col"></param>
         private void CheckWinner(Player player, int row, int col)
         {
-            bool isRowDone = true;
-            bool isColDone = true;
-            bool isDiagonalDone = true;
-            bool isRevDiagonalDone = true;
+            bool isRowWin = true;
+            bool isColWin = true;
+            bool isDiagonalWin = true;
+            bool isRevDiagonalWin = true;
 
             for (int i = 0; i < _size; i++)
             {
                 if (_board[row, i] != player.Symbol)
-                    isRowDone = false;
+                    isRowWin = false;
                 if (_board[i, col] != player.Symbol)
-                    isColDone = false;
+                    isColWin = false;
                 if (_board[i, i] != player.Symbol)
-                    isDiagonalDone = false;
+                    isDiagonalWin = false;
                 if (_board[i, _size - 1 - col] != player.Symbol)
-                    isRevDiagonalDone = false;
+                    isRevDiagonalWin = false;
             }
 
-            if (isRowDone || isColDone || isDiagonalDone || isRevDiagonalDone)
+            if (isRowWin || isColWin || isDiagonalWin || isRevDiagonalWin)
                 _printer.Print($"{player.Name} won the game \n");
             else if (_moveCounter == _size * _size)
                 _printer.Print("Game Over");

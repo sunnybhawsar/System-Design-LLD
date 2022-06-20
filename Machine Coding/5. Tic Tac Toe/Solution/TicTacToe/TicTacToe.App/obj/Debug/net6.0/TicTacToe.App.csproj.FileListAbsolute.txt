@@ -75,3 +75,27 @@ D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\obj\Debug\net6.0\refint\TicTa
 D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.pdb
 D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.genruntimeconfig.cache
 D:\Visual Studio WorkSpace\TicTacToe\TicTacToe.App\obj\Debug\net6.0\ref\TicTacToe.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\TicTacToe.App.exe
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\TicTacToe.App.deps.json
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\TicTacToe.App.runtimeconfig.json
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\TicTacToe.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\TicTacToe.App.pdb
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.csproj.AssemblyReference.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.AssemblyInfoInputs.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.AssemblyInfo.cs
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.csproj.CoreCompileInputs.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.csproj.CopyComplete
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\refint\TicTacToe.App.dll
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.pdb
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\TicTacToe.App.genruntimeconfig.cache
+D:\Github\Learning\System-Design-LLD\Machine Coding\5. Tic Tac Toe\Solution\TicTacToe\TicTacToe.App\obj\Debug\net6.0\ref\TicTacToe.App.dll

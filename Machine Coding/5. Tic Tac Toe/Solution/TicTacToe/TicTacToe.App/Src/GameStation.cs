@@ -1,4 +1,4 @@
-﻿using TicTacToe.App.Src.enums;
+﻿using TicTacToe.App.Src.Enums;
 using TicTacToe.App.Src.Games;
 using TicTacToe.App.Src.Modes;
 using TicTacToe.App.Src.Printers;
@@ -16,6 +16,9 @@ namespace TicTacToe.App.Src
             _size = size;
         }
 
+        /// <summary>
+        /// Injects desired dependencies and starts the game
+        /// </summary>
         internal void Play()
         {
             switch (_inputMode)

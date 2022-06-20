@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio WorkSpace\\TicTacToe\\TicTacToe.App\\TicTacToe.App.csproj": {}
+    "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.App\\TicTacToe.App.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio WorkSpace\\TicTacToe\\TicTacToe.App\\TicTacToe.App.csproj": {
+    "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.App\\TicTacToe.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio WorkSpace\\TicTacToe\\TicTacToe.App\\TicTacToe.App.csproj",
+        "projectUniqueName": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.App\\TicTacToe.App.csproj",
         "projectName": "TicTacToe.App",
-        "projectPath": "D:\\Visual Studio WorkSpace\\TicTacToe\\TicTacToe.App\\TicTacToe.App.csproj",
+        "projectPath": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.App\\TicTacToe.App.csproj",
         "packagesPath": "C:\\Users\\sunny\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio WorkSpace\\TicTacToe\\TicTacToe.App\\obj\\",
+        "outputPath": "D:\\Github\\Learning\\System-Design-LLD\\Machine Coding\\5. Tic Tac Toe\\Solution\\TicTacToe\\TicTacToe.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sunny\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,15 +40,7 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.DotNet.Cli.Utils": {
-              "target": "Package",
-              "version": "[2.0.0, )"
-            },
-            "Microsoft.Extensions.Hosting": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
-            "Microsoft.Extensions.Hosting.Abstractions": {
+            "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[6.0.0, )"
             }

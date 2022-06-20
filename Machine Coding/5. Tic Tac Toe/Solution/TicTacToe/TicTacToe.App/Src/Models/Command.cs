@@ -7,6 +7,11 @@ namespace TicTacToe.App.Src.Models
         public string? Name { get; set; }
         public IList<string>? param { get; set; }
 
+        /// <summary>
+        /// Initializes the properties based on the input string
+        /// </summary>
+        /// <param name="input"></param>
+        /// <exception cref="InvalidCommandException"></exception>
         internal Command(string input)
         {
             if (string.IsNullOrEmpty(input))

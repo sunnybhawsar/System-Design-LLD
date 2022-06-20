@@ -1,4 +1,4 @@
-﻿namespace TicTacToe.App.Src.enums
+﻿namespace TicTacToe.App.Src.Enums
 {
     public enum InputMode
     {

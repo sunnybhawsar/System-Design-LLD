@@ -7,19 +7,21 @@ namespace TicTacToe.App.Src.Modes
 {
     internal class FileMode : Mode
     {
-        private string _currentDirectory;
-        private string _fileName;
+        private readonly string _currentDirectory;
+        private readonly string _folderName;
+        private readonly string _fileName;
         public FileMode(IGame game, IPrinter printer) : base(game, printer)
         {
             _currentDirectory = DirectoryHelper.GetCurrentDirectory();
-            _fileName = $"IO/Input1.txt";
+            _folderName = ConfigReader.Instance.GetValue("FileMode:Folder");
+            _fileName = ConfigReader.Instance.GetValue("FileMode:InputFile");
         }
 
         internal override Mode Process()
         {
             try
             {
-                foreach (var inputLine in File.ReadLines($"{_currentDirectory}{_fileName}"))
+                foreach (var inputLine in File.ReadLines($"{_currentDirectory}{_folderName}{_fileName}"))
                 {
                     Command command = new Command(inputLine);
                     ProcessCommand(command);

@@ -16,6 +16,10 @@ namespace TicTacToe.App.Src.Modes
             _printer = printer;
         }
 
+        /// <summary>
+        /// Executes the applicable command
+        /// </summary>
+        /// <param name="command"></param>
         internal void ProcessCommand(Command command)
         {
             try
@@ -29,6 +33,10 @@ namespace TicTacToe.App.Src.Modes
             }
         }
 
+        /// <summary>
+        /// Reads the input from user and creates command object to process
+        /// </summary>
+        /// <returns></returns>
         internal abstract Mode Process();
     }
 }

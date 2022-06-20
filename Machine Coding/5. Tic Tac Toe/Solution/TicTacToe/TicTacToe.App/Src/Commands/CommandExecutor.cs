@@ -14,14 +14,38 @@ namespace TicTacToe.App.Src.Commands
             _command = command;
         }
 
+        #region Abstract
+
+        /// <summary>
+        /// Checks if the command name matches the applicable executor
+        /// </summary>
+        /// <returns>true/false</returns>
         internal abstract bool IsApplicable();
+
+        /// <summary>
+        /// Runs basic validations on the coming command object
+        /// </summary>
+        /// <returns>true/false</returns>
         internal abstract bool IsValid();
+
+        /// <summary>
+        /// Actual work of the executor based on the command
+        /// </summary>
         internal abstract void ExecuteCommand();
 
+        #endregion Abstract
+
+        #region Base
+
+        /// <summary>
+        /// Executes command by calling applicable method
+        /// </summary>
         internal void Execute()
         {
             if (IsApplicable())
                 ExecuteCommand();
         }
+
+        #endregion Base
     }
 }
