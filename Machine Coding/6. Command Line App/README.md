@@ -4,9 +4,9 @@ Print numbers from 1 - n
 
 ## Requirements
 
-Create a command-line application with the following requirements:
+Create a console application with the following requirements:
 
-1. User can provide input thru command line
+1. User can provide input thru command line interface
 2. Print the number from 1 - n
     * If number is divisible by 3 then print 2nd command line argument if provided else print "fizz" 
     * If number is divisible by 5 then print 3nd command line argument if provided else print "buzz" 
