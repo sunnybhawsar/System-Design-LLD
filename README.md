@@ -1,5 +1,5 @@
 # System-Design-LLD
-> Low Level Design - Problems &amp; Solutions in .Net 5+
+> Low Level Design - Problems &amp; Solutions in .Net Core
 
 # Contents:
 
